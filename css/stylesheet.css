@@ -1,0 +1,143 @@
+*{ box-sizing: border-box;}
+
+body{background-image: url(./images/bg-body.png);}
+
+.maincontainer {
+    margin: 0px auto;
+    max-width: 1180px;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.navheader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    color: #444;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-small;
+}
+
+.navheader a {
+    margin-left: 20px;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header img{
+    border-radius: 50%;
+}
+
+.navcontenedor{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+.navcontenedor a {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #444;
+    color: #666;
+    width: 180px;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;  
+}
+
+
+.margin{
+    margin-right: 20px;
+}
+
+.margin2 {
+    margin-right: 20px;
+}
+
+.banner {
+    display: flex;
+    width: 1180px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.contenedoropciones {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.contenedoropciones img {
+    width: 380px;
+}
+
+.contenedoropciones p {
+    max-width: 380px;
+    margin-bottom: 20px;
+}
+
+button{
+    margin-bottom: 30px;
+    background-color: #444;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(200,0,0);
+    max-width: 1180px;
+    border-radius: 15px 15px 0px 0px;
+    padding: 20px 0px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+
+}
+
+.navheader a:link{
+    text-decoration: none;
+    color: #444;
+}
+
+.navheader a:visited{
+    text-decoration: none;
+    color: #444;
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+p { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
